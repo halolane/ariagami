@@ -2,11 +2,28 @@
 <html>
 <head>
   <title>Ariagami</title>
+  <script id="tinyhippos-injected">if (window.top.ripple) { window.top.ripple("bootstrap").inject(window, document); }</script><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8" class="first-child">
+  <meta name="keywords" content="development, programming, webapp, web application, app, startup">
+  <meta name="description" content="Express web application development for startups done in two days with a small fixed price.">
+  <title>MVP (Minimum Viable Product) Development for Startups - Ariagami MVP</title>
+  <link href="insert favicon" rel="shortcut icon">
+
+      <!-- BREAK POINTS / RESPONSIVE -->
+<!--     <link rel="stylesheet" href="/css/mobile.css" media="screen and (max-width : 720px)">
+    <link rel="stylesheet" href="/css/tablet.css" media="screen and (min-width : 720px) and (max-width : 1000px)" /> -->
+
   <%= stylesheet_link_tag    "application", :media => "all" %>
+  <script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+  <script type="text/javascript" src='http://malsup.github.io/jquery.cycle.all.js'></script>
   <%= javascript_include_tag "application" %>
+  <!--[if lt IE 9]>
+    <script type="text/javascript" src="/js/html5shiv.js"></script>
+    <![endif]-->
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body class="mvp_page last-child">
 
 <%= yield %>
 

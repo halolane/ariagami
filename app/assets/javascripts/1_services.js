@@ -44,7 +44,7 @@ $(document).on('ready', function() {
 	});
 
 
-	$('#nav').smint();
+	// $('#nav').smint();
 
 	Shadowbox.init();
 });

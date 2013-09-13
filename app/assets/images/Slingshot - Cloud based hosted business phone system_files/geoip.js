@@ -1,0 +1,10 @@
+function geoip_country_code() { return 'CA'; }
+function geoip_country_name() { return 'Canada'; }
+function geoip_city()         { return 'Kitchener'; }
+function geoip_region()       { return 'ON'; }
+function geoip_region_name()  { return 'Ontario'; }
+function geoip_latitude()     { return '43.447'; }
+function geoip_longitude()    { return '-80.4725'; }
+function geoip_postal_code()  { return ''; }
+function geoip_area_code()    { return ''; }
+function geoip_metro_code()   { return ''; }
